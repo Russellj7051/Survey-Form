@@ -1,0 +1,97 @@
+body, html {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  font-family: monospace;
+  font-size: 16px;
+  background-image: url(https://www.runescape.com/img/responsive/runescape/backgrounds/vista.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  height: 100px;
+
+}
+
+h1, p {
+  display: block;
+  color: #e1bb34;
+  margin: 0, auto;
+  text-align: center;
+
+}
+
+h1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+p {
+  margin-top: 0px;
+  margin-bottom: 20px
+}
+
+form {
+  width: 600px;
+  margin: 0 auto;
+  padding-bottom: 5rem
+
+}
+
+fieldset {
+  background-color: hsl(208deg, 37%, 10%, .9);
+  color: #c1c7ca;
+  border: none;
+  padding-left: 20px;
+
+}
+
+label {
+  display: block;
+  margin: 0 auto 1.25rem auto;
+  padding: 0.25rem;
+} 
+
+input, select, textarea {
+  margin: 10px;
+  margin-left: 0px;
+  width: 95%;
+  height: 2.375rem;
+  font-family: inherit;
+  font-size: inherit;
+  border-radius: 0.5rem;
+
+}
+
+textarea {
+  height: 6rem
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5 0 0;
+  vertical-align: middle;
+
+}
+
+.group {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 10px;
+  
+}
+
+.submit {
+text-align: center;
+}
+
+input[type="submit"] {
+ background-image: url(https://www.runescape.com/img/rs3/global/header_play.jpg);
+
+}
