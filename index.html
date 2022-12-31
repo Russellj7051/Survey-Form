@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 1. THE HEAD -->
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Runescape player form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+<!-- 2. THE BODY -->
+  <body>
+    <img src="https://1000logos.net/wp-content/uploads/2021/02/RuneScape-logo.png">
+    <div>
+      <h1 id="title">Runescape Player Form</h1>
+      <p id="description">Thank you for helping us improve your player experience</p>
+      <form  id="survey-form">
+        <fieldset>
+          <div>
+            <label id="name-label">Name <input id="name" type="text" placeholder="Name" required /></label>
+          </div>
+          <div>
+            <label id="email-label">Email <input id="email" type="email" placeholder="Email"required/></label>
+          </div>
+          <div>
+            <label id="number-label">Age (optional) <input id="number" type="number" min="1" max="100" placeholder="Age" /></label>
+          </div>
+          <div>
+            <label>Which option best describes your player type?  
+              <select id="dropdown">
+                <option value("")>Select an option</option>
+                <option value("1")>PVM</option>
+                <option value("2")>PVP</option>
+                <option value("3")>Skiller</option>
+              </select>
+            </label>
+          </div>
+          <label class="spacing">What is your membership status?</label>
+          <div class="membership-skill">
+              <label class="input-checkbox"><input id="member" name="membership-type" type="radio" for="member" value="member" class="inline" checked/> Member</label>
+              <label class="input-checkbox"><input id="non-member" name="membership-type" type="radio" value="non-member" class="inline"/> Non-Member</label>
+          </div>
+          <label class="spacing">Which skilling updates would you like? (Choose all that apply)</label>
+          <div class="membership-skill">
+            <label class="input-checkbox"><input id="max-cape" type="checkbox" name="skill" value="max-cape" class="inline"> 120 max cape</label>
+            <label class="input-checkbox"><input id="aquarium" type="checkbox" name="skill" value="aquarium" class="inline"> Aquarium-like area for Hunter</label>
+            <label class="input-checkbox"><input id="potions" type="checkbox" name="skill" value="potions" class="inline"> Extreme skilling potions</label>
+            <label class="input-checkbox"><input id="arena" type="checkbox" name="skill" value="arena" class="inline"> High-level Brimhaven Agility Arena</label>
+            <label class="input-checkbox"><input id="outfit" type="checkbox" name="skill" value="outfit" class="inline"> Hunter elite skilling outfit (unlocked via gameplay)</label>
+            <label class="input-checkbox"><input id="impling" type="checkbox" name="skill" value="impling" class="inline"> Impling revival, making them more worthwhile</label>
+            <label class="input-checkbox"><input id="perks" type="checkbox" name="skill" value="perks" class="inline"> Master skillcape perks & improving 99 skill perks</label>
+            <label class="input-checkbox"><input id="milestone" type="checkbox" name="skill" value="mileston" class="inline"> Milestone capes above level 90</label>
+            <label class="input-checkbox"><input id="dungeoneering" type="checkbox" name="skill" value="dungeoneering" class="inline"> More Dungeoneering resource dungeons</label>
+            <label class="input-checkbox"><input id="menaphos" type="checkbox" name="skill" value="menaphos" class="inline"> More Menaphos reputation unlocks</label>
+          </div>
+          <div>
+            <label id="bio">Any comments or suggestions?
+              <textarea id="bio" name="bio" rows="5" placeholder="Enter your comment here"></textarea>
+            </label>
+          </div>
+          <div class="submit">     
+          <input id="submit" type="submit" value="Submit">
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
